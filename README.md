@@ -2,6 +2,10 @@
 
 ## Overview
 A Streamlit-based app that predicts customer churn for a telecom company, leveraging a trained machine learning model to provide insights for customer retention strategies.
+## Link to video walkthrough 
+https://drive.google.com/file/d/1C5-Aal5H4oNDvEZSjpuWPsodtHCg3MxY/view?usp=sharing
+#### Link to the deployed system
+https://dataminningsummativeapp.streamlit.app/
 
 ## Usage
 1. Install Streamlit if you haven't: `pip install streamlit`
@@ -19,8 +23,3 @@ A Streamlit-based app that predicts customer churn for a telecom company, levera
 Install dependencies:
 ```bash
 pip install pandas numpy joblib streamlit
-
-### Link to video walkthrough 
-https://drive.google.com/file/d/1C5-Aal5H4oNDvEZSjpuWPsodtHCg3MxY/view?usp=sharing
-#### Link to the deployed system
-https://dataminningsummativeapp.streamlit.app/
