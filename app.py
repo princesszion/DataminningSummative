@@ -21,9 +21,9 @@ def user_input_features():
             dependents = st.selectbox('Dependents', ['Yes', 'No'])
             
         with col2:
-            phone_service = st.selectbox('Phone Service', ['Yes', 'No'])
+            phone_service = st.selectbox('No Phone Service', ['Yes', 'No'])
             multiple_lines = st.selectbox('Multiple Lines', ['Phone service', 'No', 'Yes'])
-            internet_service = st.selectbox('Internet Service', ['DSL', 'Fiber optic', 'No'])
+            internet_service = st.selectbox('No Internet Service', ['DSL', 'Fiber optic', 'No'])
             online_security = st.selectbox('Online Security', ['Online Security', 'No', 'Yes'])
             
         with col3:
