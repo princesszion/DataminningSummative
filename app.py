@@ -22,16 +22,16 @@ def user_input_features():
             
         with col2:
             phone_service = st.selectbox('Phone Service', ['Yes', 'No'])
-            multiple_lines = st.selectbox('Multiple Lines', ['No phone service', 'No', 'Yes'])
+            multiple_lines = st.selectbox('Multiple Lines', ['Phone service', 'No', 'Yes'])
             internet_service = st.selectbox('Internet Service', ['DSL', 'Fiber optic', 'No'])
-            online_security = st.selectbox('Online Security', ['No internet service', 'No', 'Yes'])
+            online_security = st.selectbox('Online Security', ['Online Security', 'No', 'Yes'])
             
         with col3:
-            online_backup = st.selectbox('Online Backup', ['No internet service', 'No', 'Yes'])
-            device_protection = st.selectbox('Device Protection', ['No internet service', 'No', 'Yes'])
-            tech_support = st.selectbox('Tech Support', ['No internet service', 'No', 'Yes'])
-            streaming_tv = st.selectbox('Streaming TV', ['No internet service', 'No', 'Yes'])
-            streaming_movies = st.selectbox('Streaming Movies', ['No internet service', 'No', 'Yes'])
+            online_backup = st.selectbox('Online Backup', ['Online Backup', 'No', 'Yes'])
+            device_protection = st.selectbox('Device Protection', ['Device Protection', 'No', 'Yes'])
+            tech_support = st.selectbox('Tech Support', ['Tech Support', 'No', 'Yes'])
+            streaming_tv = st.selectbox('Streaming TV', ['Streaming TV', 'No', 'Yes'])
+            streaming_movies = st.selectbox('Streaming Movies', ['Streaming Movies', 'No', 'Yes'])
         
         col4, col5 = st.columns([3,2])
         with col4:
